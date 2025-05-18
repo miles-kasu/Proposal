@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Will You Be My Girlfriend?</title>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #a066c9, #d09ae4);
+      color: white;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    h1 {
+      font-family: 'Pacifico', cursive;
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      color: #fff3fe;
+      text-shadow: 2px 2px 6px #00000033;
+    }
+
+    p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin-bottom: 2rem;
+      color: #f0defa;
+    }
+
+    .button-group {
+      display: flex;
+      gap: 2rem;
+      margin-top: 2rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .btn {
+      background-color: #7e3e9c;
+      border: none;
+      padding: 1rem 2rem;
+      border-radius: 50px;
+      color: white;
+      font-size: 1.2rem;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    .btn:hover {
+      background-color: #a366c4;
+      transform: scale(1.05);
+    }
+
+    .heart {
+      font-size: 5rem;
+      animation: pulse 1.5s infinite;
+      color: #ff99cc;
+      margin-bottom: 1rem;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.1); }
+      100% { transform: scale(1); }
+    }
+
+    .footer {
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+  <div class="heart">💜</div>
+  <h1>Will You Be My Girlfriend?</h1>
+  <p>
+    I know this might be unexpected or not, apparently I am predictable 😂😂, 
+  <p> But I wouldn’t want to wait any longer to ask you properly.<br></p>
+    You make me happy and calm in ways I never thought could happen to me again.
+  <p> It might be early for this but I think I love you</p>
+  <p>So here I am... asking with all my heart. </p> 
+  </p>
+  <div class="button-group">
+    <button class="btn" onclick="alert('YAY!! 💕 I mean I expected this answer💜😂')">Yes, of course!</button>
+    <button class="btn" onclick="alert('Aww, okay, that will not change how I feel, I still like you a lot. 💜')">Maybe later?</button>
+  </div>
+  <div class="footer">Made with love by Miles 💜</div>
+</body>
+</html>
